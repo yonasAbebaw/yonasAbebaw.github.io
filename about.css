@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+ul{
+  display:flex;
+  justify-content: center;
+  float: left;
+  margin-left: 10px;
+  align-items: center;
+  
+}
+   
+
+li{
+    list-style: none;
+    margin-right: 60px;
+    margin-top:27px;
+    font-size: 14px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+li a:hover{
+    color:#ff7200;
+}
+.input{
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
